@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>NewWebmaster.RU</title>
+    <link href="https://proweb.github.io/personal-blog/feed.xml" rel="self" />
+    <link href="https://proweb.github.io/personal-blog" />
+    <updated>1970-01-01T03:00:00+03:00</updated>
+    <author>
+        <name>Сергей Мочалов</name>
+    </author>
+    <id>https://proweb.github.io/personal-blog</id>
+
+    <entry>
+        <title>Кто такие вебмастера и для чего они нужны?</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/kto-takie-vebmastera-i-dlya-chego-oni-nuzhny/"/>
+        <id>https://proweb.github.io/personal-blog/kto-takie-vebmastera-i-dlya-chego-oni-nuzhny/</id>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/2/webmaster-plus.jpg" alt="" />
+                    Кто такой вебмастер? Его можно определять по разному, но в первую очередь это человек, работающий с сайтами — интернет представительствами коммерческих компаний, организаций, магазинов или со своей пачкой сайтов. Вебмастер — это как правило многопрофильный специалист имеющий навыки разработчика, веб-дизайнера, контент-менеджера, seo-специалиста и т.д. Принято&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>.gitignore для WordPress</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/gitignore-for-wordpress/"/>
+        <id>https://proweb.github.io/personal-blog/gitignore-for-wordpress/</id>
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/16/wordpress-gitignore.jpg" alt="" />
+                    При разработке веб-приложений работу без использования Git уже не возможно представить. Сложно выдумать что то более рациональное для контроля версий. А история коммитов позволяет проследить весь процесс разработки конкретного проекта во времени. При разработке шаблонов для WordPress также часто используется git, т.к. процесс разработки достаточно&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Функция WP_Query — список аргументов</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/wp_query-args/"/>
+        <id>https://proweb.github.io/personal-blog/wp_query-args/</id>
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg" alt="Функция WP_Query — список аргументов" />
+                    Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php/*** WordPress Query Comprehensive Reference* Compiled by luetkemj - luetkemj.com** CODEX: http://codex.wordpress.org/Class_Reference/WP_Query#Parameters* Source: https://core.trac.wordpress.org/browser/tags/3.9/src/wp-includes/query.php*/$args =&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как исключить некоторые категории с главной страницы WordPress</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/wordpress-front-category-exclusion/"/>
+        <id>https://proweb.github.io/personal-blog/wordpress-front-category-exclusion/</id>
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/10/Category1.jpg" alt="" />
+                    Часто возникает задача, когда некоторые категории блога не хотелось бы отображать в общем цикле WordPress, особенно на главной странице блога. Причин на то может быть много, это и продажа рекламы в постах данной категории, или нетематичность данной категории для блога.Благодаря небольшому дополнению файла functions.php вашей&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как установить nginx, MySQL, PHP (LEMP) в Ubuntu</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/nginx-mysql-php-lemp-ubuntu/"/>
+        <id>https://proweb.github.io/personal-blog/nginx-mysql-php-lemp-ubuntu/</id>
+            <category term="ubuntu"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/15/nginx-install.jpeg" alt="Как установить nginx, MySQL, PHP (LEMP) в Ubuntu" />
+                    В этом посте мы разберем процесс установки сервера на основе Nginx на Ubuntu Данное руководство наиболее полно отражает процесс настройки LEMP сервера на базе хостинга от DigitalOcean, счастливым клиентом которого я недавно стал и вам советую. LEMP — аббревиатура, обозначающая комплекс программ для развертывания полного&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Карусель Slick внутри Bootstrap tabs и Equal height</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/slick-in-bootstrap-tabs-and-equal-height/"/>
+        <id>https://proweb.github.io/personal-blog/slick-in-bootstrap-tabs-and-equal-height/</id>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/12/slick-1.png" alt="" />
+                    На этой неделе шаманили над новым сайтом. Задачка не сильно сложная — лендинг для мероприятия. В процессе разработки возникла задача сделать карусельку из нескольких слайдов (для прокрутки мероприятий и списка спонсоров) В качестве достаточно неплохо выполненной карусельки на JQuery выбор пал на Slick (репозиторий на&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>WordPress 5.2 важное обновление в темах</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/wp-5-2-themes-update-wp-body-open/"/>
+        <id>https://proweb.github.io/personal-blog/wp-5-2-themes-update-wp-body-open/</id>
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/4/wp-body-open.jpg" alt="wp_body_open WordPress" />
+                    Согласно официальному блогу, с выходом версии WordPress 5.2 появится новая функция wp_body_open() которая будет запускать action — wp_body_open Согласно исходникам эта функция должна идти обязательно сразу после тега &lt;body&gt; Когда разработчик или маркетолог встраивает код Google Analytics или Метрики или Facebook Pixel в тему WordPress,&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как избавиться от Gutenberg в WordPress?</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/remove-gutenberg-in-wordpress/"/>
+        <id>https://proweb.github.io/personal-blog/remove-gutenberg-in-wordpress/</id>
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/14/guten-classic.png" alt="Как избавиться от Gutenberg в WordPress?" />
+                    Не секрет, что решение заменить стандартный редактор TinyMCE на более современный Gutenberg не у всех вызвало позитив..Многие пользователи и разработчики вполне довольны имеющимся функционалом WordPress и хотели бы и дальше оставаться с ним. Однако технологии развиваются, конкуренция растет и WordPress дабы не потерять первенство на&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как заменить jQuery на чистый Javascript</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/replace-jquery-to-js-vanilla/"/>
+        <id>https://proweb.github.io/personal-blog/replace-jquery-to-js-vanilla/</id>
+            <category term="javascript"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/13/js-vs-jquery.jpg" alt="Как заменить jQuery на чистый Javascript" />
+                    jQuery одна из самых популярных библиотек своего времени. Использовалась, да и часто до сих пор используется на многих сайтах для манипуляции DOM, AJAX запросов и прочего Изначально она создавалась для решения проблем кросс-браузерности в работе JS-кода. Чтоб все было «четко» и работало везде.Также синтаксис был&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как установить Sublime Text в Ubuntu</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://proweb.github.io/personal-blog/sublime-text-install-ubuntu/"/>
+        <id>https://proweb.github.io/personal-blog/sublime-text-install-ubuntu/</id>
+            <category term="ubuntu"/>
+
+        <updated>2020-06-28T21:38:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://proweb.github.io/personal-blog/media/posts/11/sublime-text-2.png" alt="установка Sublime Text из репозитория Ubuntu" />
+                    Краткая инструкция — установка Sublime Text из репозитория Ubuntu Добавляем репозиторий Sublime Text 2 Ubuntu PPA : sudo add-apt-repository ppa:webupd8team/sublime-text-2sudo apt-get updateЗатем производим установку Sublime Text 2 stable build: sudo apt-get install sublime-textИли Sublime Text 2 development build, на ваш вкус: sudo apt-get install sublime-text-devУстановка&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+</feed>

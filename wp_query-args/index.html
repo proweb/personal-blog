@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Функция WP_Query — список аргументов - NewWebmaster.ru</title><meta name="description" content="Функция WP_Query один из часто используемых классов в разработке на WordPress. В данном сниппете перечислены все аргументы, используемые для выборки постов."><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://proweb.github.io/personal-blog/wp_query-args/"><link rel="alternate" type="application/atom+xml" href="https://proweb.github.io/personal-blog/feed.xml"><meta property="og:title" content="Функция WP_Query — список аргументов"><meta property="og:image" content="https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg"><meta property="og:site_name" content="Блог Очередного вебмастера"><meta property="og:description" content="Функция WP_Query один из часто используемых классов в разработке на WordPress. В данном сниппете перечислены все аргументы, используемые для выборки постов."><meta property="og:url" content="https://proweb.github.io/personal-blog/wp_query-args/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@vyatka"><meta name="twitter:title" content="Функция WP_Query — список аргументов"><meta name="twitter:description" content="Функция WP_Query один из часто используемых классов в разработке на WordPress. В данном сниппете перечислены все аргументы, используемые для выборки постов."><meta name="twitter:image" content="https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg"><style>:root {
+                --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --heading-font: var(--body-font);
+                --post-entry-font: var(--body-font);
+                --logo-font: var(--body-font);
+                --menu-font: var(--body-font)
+            }</style><link rel="stylesheet" href="https://proweb.github.io/personal-blog/assets/css/style.css?v=5ef27c39a6d8898d6055e0e6688249d3"><link rel="stylesheet" href="https://proweb.github.io/personal-blog/assets/css/prism.css?v=961bf94fa3b6f5cc4263f3d514169781"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://proweb.github.io/personal-blog/wp_query-args/"},"headline":"Функция WP_Query — список аргументов","datePublished":"2019-08-26T23:00","dateModified":"2020-06-27T17:18","image":{"@type":"ImageObject","url":"https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg","height":1260,"width":2240},"description":"Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php/*** WordPress Query Comprehensive Reference* Compiled by luetkemj - luetkemj.com** CODEX: http://codex.wordpress.org/Class_Reference/WP_Query#Parameters* Source: https://core.trac.wordpress.org/browser/tags/3.9/src/wp-includes/query.php*/$args =&hellip;","author":{"@type":"Person","name":"Сергей Мочалов"},"publisher":{"@type":"Organization","name":"Сергей Мочалов"}}</script></head><body><header class="topbar" id="js-header"><div class="topbar__inner"><a class="logo" href="https://proweb.github.io/personal-blog/">NewWebmaster.RU</a><nav class="navbar"><button class="navbar__toggle" aria-label="Меню" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Меню</span></span></button><ul class="navbar__menu"><li><a href="https://proweb.github.io/personal-blog/about/" target="_self">Об авторе</a></li><li><a href="https://proweb.github.io/personal-blog/service/" target="_self">Услуги</a></li></ul></nav></div></header><div class="content"><div class="infobar"><div class="infobar__update">Обновлено: <time datetime="2020-06-28T21:38">июнь 28, 2020</time></div><div class="infobar__search"><form action="https://proweb.github.io/personal-blog/search.html"><input type="search" name="q" placeholder=" искать..."> <button type="submit" aria-label="Search"><svg width="15px" height="14px"><use xlink:href="https://proweb.github.io/personal-blog/assets/svg/svg-map.svg#search"/></svg></button></form></div></div><main class="main"><article class="post"><figure class="post__featured-image"><img src="https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg" srcset="https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-xs.jpg 300w, https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-sm.jpg 480w, https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-md.jpg 768w, https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-lg.jpg 1024w, https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-xl.jpg 1360w, https://proweb.github.io/personal-blog/media/posts/3/responsive/WP_Query-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="1260" width="2240" alt="Функция WP_Query — список аргументов"></figure><header class="u-header post__header"><h1>Функция WP_Query — список аргументов</h1><div class="u-header__meta u-small"><img src="https://proweb.github.io/personal-blog/media/website/64a5f2.jpg-240x240-crop.jpg" loading="eager" class="u-header__avatar" alt="Сергей Мочалов"><div><a href="https://proweb.github.io/personal-blog/authors/sergey-mochalov/" title="Сергей Мочалов">Сергей Мочалов</a> <time datetime="2019-08-26T23:00">август 26, 2019 </time><a href="https://proweb.github.io/personal-blog/tag/wordpress/" class="u-tag u-tag--1">wordpress</a></div></div></header><div class="post__entry u-inner"><p>Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика.</p><p>Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress.</p><hr><pre><code class="language-php">
+&lt;?php
+/**
+* WordPress Query Comprehensive Reference
+* Compiled by luetkemj - luetkemj.com
+*
+* CODEX: http://codex.wordpress.org/Class_Reference/WP_Query#Parameters
+* Source: https://core.trac.wordpress.org/browser/tags/3.9/src/wp-includes/query.php
+*/
+$args = array(
+// Author Parameters - Show posts associated with certain author.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Author_Parameters
+    &#39;author&#39; =&gt; &#39;1,2,3,&#39;                      // (int) - use author id [use minus (-) to exclude authors by ID ex. &#39;author&#39; =&gt; &#39;-1,-2,-3,&#39;]
+    &#39;author_name&#39; =&gt; &#39;luetkemj&#39;,              // (string) - use &#39;user_nicename&#39; (NOT name)
+    &#39;author__in&#39; =&gt; array( 2, 6 ),            // (array) - use author id (available with Version 3.7).
+    &#39;author__not_in&#39; =&gt; array( 2, 6 ),        // (array)&#39; - use author id (available with Version 3.7).
+
+// Category Parameters - Show posts associated with certain categories.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Category_Parameters
+    &#39;cat&#39; =&gt; 5,//(int) - use category id.
+    &#39;category_name&#39; =&gt; &#39;staff, news&#39;,          // (string) - Display posts that have these categories, using category slug.
+    &#39;category_name&#39; =&gt; &#39;staff+news&#39;,           // (string) - Display posts that have &quot;all&quot; of these categories, using category slug.
+    &#39;category__and&#39; =&gt; array( 2, 6 ),         // (array) - use category id.
+    &#39;category__in&#39; =&gt; array( 2, 6 ),          // (array) - use category id.
+    &#39;category__not_in&#39; =&gt; array( 2, 6 ),      // (array) - use category id.
+
+// Tag Parameters - Show posts associated with certain tags.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Tag_Parameters
+    &#39;tag&#39; =&gt; &#39;cooking&#39;,                       // (string) - use tag slug.
+    &#39;tag_id&#39; =&gt; 5,                            // (int) - use tag id.
+    &#39;tag__and&#39; =&gt; array( 2, 6),               // (array) - use tag ids.
+    &#39;tag__in&#39; =&gt; array( 2, 6),                // (array) - use tag ids.
+    &#39;tag__not_in&#39; =&gt; array( 2, 6),            // (array) - use tag ids.
+    &#39;tag_slug__and&#39; =&gt; array( &#39;red&#39;, &#39;blue&#39;), // (array) - use tag slugs.
+    &#39;tag_slug__in&#39; =&gt; array( &#39;red&#39;, &#39;blue&#39;),  // (array) - use tag slugs.
+
+// Taxonomy Parameters - Show posts associated with certain taxonomy.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Taxonomy_Parameters
+// Important Note: tax_query takes an array of tax query arguments arrays (it takes an array of arrays)
+// This construct allows you to query multiple taxonomies by using the relation parameter in the first (outer) array to describe the boolean relationship between the taxonomy queries.
+    &#39;tax_query&#39; =&gt; array(                     // (array) - use taxonomy parameters (available with Version 3.1).
+    &#39;relation&#39; =&gt; &#39;AND&#39;,                      // (string) - Possible values are &#39;AND&#39; or &#39;OR&#39; and is the equivalent of running a JOIN for each taxonomy
+      array(
+        &#39;taxonomy&#39; =&gt; &#39;color&#39;,                // (string) - Taxonomy.
+        &#39;field&#39; =&gt; &#39;slug&#39;,                    // (string) - Select taxonomy term by (&#39;id&#39; or &#39;slug&#39;)
+        &#39;terms&#39; =&gt; array( &#39;red&#39;, &#39;blue&#39; ),    // (int/string/array) - Taxonomy term(s).
+        &#39;include_children&#39; =&gt; true,           // (bool) - Whether or not to include children for hierarchical taxonomies. Defaults to true.
+        &#39;operator&#39; =&gt; &#39;IN&#39;                    // (string) - Operator to test. Possible values are &#39;IN&#39;, &#39;NOT IN&#39;, &#39;AND&#39;.
+      ),
+      array(
+        &#39;taxonomy&#39; =&gt; &#39;actor&#39;,
+        &#39;field&#39; =&gt; &#39;id&#39;,
+        &#39;terms&#39; =&gt; array( 103, 115, 206 ),
+        &#39;include_children&#39; =&gt; false,
+        &#39;operator&#39; =&gt; &#39;NOT IN&#39;
+      )
+    ),
+
+// Post &amp; Page Parameters - Display content based on post and page parameters.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Post_.26_Page_Parameters
+    &#39;p&#39; =&gt; 1,                               // (int) - use post id.
+    &#39;name&#39; =&gt; &#39;hello-world&#39;,                // (string) - use post slug.
+    &#39;page_id&#39; =&gt; 1,                         // (int) - use page id.
+    &#39;pagename&#39; =&gt; &#39;sample-page&#39;,            // (string) - use page slug.
+    &#39;pagename&#39; =&gt; &#39;contact_us/canada&#39;,      // (string) - Display child page using the slug of the parent and the child page, separated ba slash
+    &#39;post_parent&#39; =&gt; 1,                     // (int) - use page id. Return just the child Pages. (Only works with heirachical post types.)
+    &#39;post_parent__in&#39; =&gt; array(1,2,3)       // (array) - use post ids. Specify posts whose parent is in an array. NOTE: Introduced in 3.6
+    &#39;post_parent__not_in&#39; =&gt; array(1,2,3),  // (array) - use post ids. Specify posts whose parent is not in an array.
+    &#39;post__in&#39; =&gt; array(1,2,3),             // (array) - use post ids. Specify posts to retrieve. ATTENTION If you use sticky posts, they will be included (prepended!) in the posts you retrieve whether you want it or not. To suppress this behaviour use ignore_sticky_posts
+    &#39;post__not_in&#39; =&gt; array(1,2,3),         // (array) - use post ids. Specify post NOT to retrieve.
+    // NOTE: you cannot combine &#39;post__in&#39; and &#39;post__not_in&#39; in the same query
+
+// Password Parameters - Show content based on post and page parameters. Remember that default post_type is only set to display posts but not pages.
+// http://codex.wordpress.org/Class_Reference/WP_Query#Password_Parameters
+    &#39;has_password&#39; =&gt; true,                 // (bool) - available with Version 3.9
+                                              // true for posts with passwords;
+                                              // false for posts without passwords;
+                                              // null for all posts with and without passwords
+    &#39;post_password&#39; =&gt; &#39;multi-pass&#39;,          // (string) - show posts with a particular password (available with Version 3.9)
+
+//////Type &amp; Status Parameters - Show posts associated with certain type or status.
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Type_Parameters
+    &#39;post_type&#39; =&gt; array(                   //(string / array) - use post types. Retrieves posts by Post Types, default value is &#39;post&#39;;
+            &#39;post&#39;,                         // - a post.
+            &#39;page&#39;,                         // - a page.
+            &#39;revision&#39;,                     // - a revision.
+            &#39;attachment&#39;,                   // - an attachment. The default WP_Query sets &#39;post_status&#39;=&gt;&#39;published&#39;, but atchments default to &#39;post_status&#39;=&gt;&#39;inherit&#39; so you&#39;ll need to set the status to &#39;inherit&#39; or &#39;any&#39;.
+            &#39;my-post-type&#39;,                 // - Custom Post Types (e.g. movies)
+            ),
+    //NOTE: The &#39;any&#39; keyword available to both post_type and post_status queries cannot be used within an array.
+    &#39;post_type&#39; =&gt; &#39;any&#39;,                   // - retrieves any type except revisions and types with &#39;exclude_from_search&#39; set to true.
+
+//////Type &amp; Status Parameters - Show posts associated with certain type or status.
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Status_Parameters
+    &#39;post_status&#39; =&gt; array(                 //(string / array) - use post status. Retrieves posts by Post Status, default value i&#39;publish&#39;.
+            &#39;publish&#39;,                      // - a published post or page.
+            &#39;pending&#39;,                      // - post is pending review.
+            &#39;draft&#39;,                        // - a post in draft status.
+            &#39;auto-draft&#39;,                   // - a newly created post, with no content.
+            &#39;future&#39;,                       // - a post to publish in the future.
+            &#39;private&#39;,                      // - not visible to users who are not logged in.
+            &#39;inherit&#39;,                      // - a revision. see get_children.
+            &#39;trash&#39;                         // - post is in trashbin (available with Version 2.9).
+            ),
+    //NOTE: The &#39;any&#39; keyword available to both post_type and post_status queries cannot be used within an array.
+    &#39;post_status&#39; =&gt; &#39;any&#39;,                 // - retrieves any status except those from post types with &#39;exclude_from_search&#39; set to true.
+
+
+
+//////Pagination Parameters
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Pagination_Parameters
+    &#39;posts_per_page&#39; =&gt; 10,                 //(int) - number of post to show per page (available with Version 2.1). Use &#39;posts_per_page&#39;=1 to show all posts (the &#39;offset&#39; parameter is ignored with a -1 value). Note if the query is in a feed, wordpress overwrites this parameter with the stored &#39;posts_per_rss&#39; option. Treimpose the limit, try using the &#39;post_limits&#39; filter, or filter &#39;pre_option_posts_per_rss&#39; and return -1
+    &#39;posts_per_archive_page&#39; =&gt; 10,         //(int) - number of posts to show per page - on archive pages only. Over-rides showposts anposts_per_page on pages where is_archive() or is_search() would be true
+    &#39;nopaging&#39; =&gt; false,                    //(bool) - show all posts or use pagination. Default value is &#39;false&#39;, use paging.
+    &#39;paged&#39; =&gt; get_query_var(&#39;paged&#39;),      //(int) - number of page. Show the posts that would normally show up just on page X when usinthe &quot;Older Entries&quot; link.
+                                            //NOTE: Use get_query_var(&#39;page&#39;); if you want your query to work in a Page template that you&#39;ve set as your static front page. The query variable &#39;page&#39; holds the pagenumber for a single paginated Post or Page that includes the &lt;!--nextpage--&gt; Quicktag in the post content.
+                                            // This whole paging thing gets tricky. Some links to help you out:
+                                            // http://codex.wordpress.org/Function_Reference/next_posts_link#Usage_when_querying_the_loop_with_WP_Query
+                                            // http://codex.wordpress.org/Pagination#Troubleshooting_Broken_Pagination
+
+    &#39;offset&#39; =&gt; 3,                          // (int) - number of post to displace or pass over.
+                                            // Warning: Setting the offset parameter overrides/ignores the paged parameter and breaks pagination. for a workaround see: http://codex.wordpress.org/Making_Custom_Queries_using_Offset_and_Pagination
+                                            // The &#39;offset&#39; parameter is ignored when &#39;posts_per_page&#39;=&gt;-1 (show all posts) is used.
+
+    &#39;page&#39; =&gt; get_query_var(&#39;page&#39;),        // (int) - number of page for a static front page. Show the posts that would normally show up just on page X of a Static Front Page.
+                                            //NOTE: The query variable &#39;page&#39; holds the pagenumber for a single paginated Post or Page that includes the &lt;!--nextpage--&gt; Quicktag in the post content.
+    &#39;ignore_sticky_posts&#39; =&gt; false,         // (boolean) - ignore sticky posts or not (available with Version 3.1, replaced caller_get_posts parameter). Default value is 0 - don&#39;t ignore sticky posts. Note: ignore/exclude sticky posts being included at the beginning of posts returned, but the sticky post will still be returned in the natural order of that list of posts returned.
+
+//////Order &amp; Orderby Parameters - Sort retrieved posts.
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters
+    &#39;order&#39; =&gt; &#39;DESC&#39;,                      //(string) - Designates the ascending or descending order of the &#39;orderby&#39; parameter. Default to &#39;DESC&#39;.
+                                              //Possible Values:
+                                              //&#39;ASC&#39; - ascending order from lowest to highest values (1, 2, 3; a, b, c).
+                                              //&#39;DESC&#39; - descending order from highest to lowest values (3, 2, 1; c, b, a).
+    &#39;orderby&#39; =&gt; &#39;date&#39;,                    //(string) - Sort retrieved posts by parameter. Defaults to &#39;date&#39;. One or more options can be passed. EX: &#39;orderby&#39; =&gt; &#39;menu_order title&#39;
+                                              //Possible Values:
+                                              //&#39;none&#39; - No order (available with Version 2.8).
+                                              //&#39;ID&#39; - Order by post id. Note the captialization.
+                                              //&#39;author&#39; - Order by author.
+                                              //&#39;title&#39; - Order by title.
+                                              //&#39;name&#39; - Order by post name (post slug).
+                                              //&#39;date&#39; - Order by date.
+                                              //&#39;modified&#39; - Order by last modified date.
+                                              //&#39;parent&#39; - Order by post/page parent id.
+                                              //&#39;rand&#39; - Random order.
+                                              //&#39;comment_count&#39; - Order by number of comments (available with Version 2.9).
+                                              //&#39;menu_order&#39; - Order by Page Order. Used most often for Pages (Order field in the EdiPage Attributes box) and for Attachments (the integer fields in the Insert / Upload MediGallery dialog), but could be used for any post type with distinct &#39;menu_order&#39; values (theall default to 0).
+                                              //&#39;meta_value&#39; - Note that a &#39;meta_key=keyname&#39; must also be present in the query. Note alsthat the sorting will be alphabetical which is fine for strings (i.e. words), but can bunexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as yomight naturally expect).
+                                              //&#39;meta_value_num&#39; - Order by numeric meta value (available with Version 2.8). Also notthat a &#39;meta_key=keyname&#39; must also be present in the query. This value allows for numericasorting as noted above in &#39;meta_value&#39;.
+                                              //&#39;title menu_order&#39; - Order by both menu_order AND title at the same time. For more info see: http://wordpress.stackexchange.com/questions/2969/order-by-menu-order-and-title
+                                              //&#39;post__in&#39; - Preserve post ID order given in the post__in array (available with Version 3.5).
+
+//////Date Parameters - Show posts associated with a certain time and date period.
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Date_Parameters
+    &#39;year&#39; =&gt; 2014,                         //(int) - 4 digit year (e.g. 2011).
+    &#39;monthnum&#39; =&gt; 4,                        //(int) - Month number (from 1 to 12).
+    &#39;w&#39; =&gt;  25,                             //(int) - Week of the year (from 0 to 53). Uses the MySQL WEEK command. The mode is dependenon the &quot;start_of_week&quot; option.
+    &#39;day&#39; =&gt; 17,                            //(int) - Day of the month (from 1 to 31).
+    &#39;hour&#39; =&gt; 13,                           //(int) - Hour (from 0 to 23).
+    &#39;minute&#39; =&gt; 19,                         //(int) - Minute (from 0 to 60).
+    &#39;second&#39; =&gt; 30,                         //(int) - Second (0 to 60).
+    &#39;m&#39; =&gt; 201404,                          //(int) - YearMonth (For e.g.: 201307).
+
+    &#39;date_query&#39; =&gt; array(                  //(array) - Date parameters (available with Version 3.7).
+                                              //these are super powerful. check out the codex for more comprehensive code examples http://codex.wordpress.org/Class_Reference/WP_Query#Date_Parameters
+      array(
+        &#39;year&#39; =&gt; 2014,                     //(int) - 4 digit year (e.g. 2011).
+        &#39;month&#39; =&gt; 4                        //(int) - Month number (from 1 to 12).
+        &#39;week&#39; =&gt; 31                        //(int) - Week of the year (from 0 to 53).
+        &#39;day&#39; =&gt; 5                          //(int) - Day of the month (from 1 to 31).
+        &#39;hour&#39; =&gt; 2                         //(int) - Hour (from 0 to 23).
+        &#39;minute&#39; =&gt; 3                       //(int) - Minute (from 0 to 59).
+        &#39;second&#39; =&gt; 36                      //(int) - Second (0 to 59).
+        &#39;after&#39;     =&gt; &#39;January 1st, 2013&#39;, //(string/array) - Date to retrieve posts after. Accepts strtotime()-compatible string, or array of &#39;year&#39;, &#39;month&#39;, &#39;day&#39;
+        &#39;before&#39;    =&gt; array(               //(string/array) - Date to retrieve posts after. Accepts strtotime()-compatible string, or array of &#39;year&#39;, &#39;month&#39;, &#39;day&#39;
+          &#39;year&#39;  =&gt; 2013,                  //(string) Accepts any four-digit year. Default is empty.
+          &#39;month&#39; =&gt; 2,                     //(string) The month of the year. Accepts numbers 1-12. Default: 12.
+          &#39;day&#39;   =&gt; 28,                    //(string) The day of the month. Accepts numbers 1-31. Default: last day of month.
+        ),
+        &#39;inclusive&#39; =&gt; true,                //(boolean) - For after/before, whether exact value should be matched or not&#39;.
+        &#39;compare&#39; =&gt;  &#39;=&#39;,                  //(string) - Possible values are &#39;=&#39;, &#39;!=&#39;, &#39;&gt;&#39;, &#39;&gt;=&#39;, &#39;&lt;&#39;, &#39;&lt;=&#39;, &#39;LIKE&#39;, &#39;NOT LIKE&#39;, &#39;IN&#39;, &#39;NOT IN&#39;, &#39;BETWEEN&#39;, &#39;NOT BETWEEN&#39;, &#39;EXISTS&#39; (only in WP &gt;= 3.5), and &#39;NOT EXISTS&#39; (also only in WP &gt;= 3.5). Default value is &#39;=&#39;
+        &#39;column&#39; =&gt; &#39;post_date&#39;,            //(string) - Column to query against. Default: &#39;post_date&#39;.
+        &#39;relation&#39; =&gt; &#39;AND&#39;,                //(string) - OR or AND, how the sub-arrays should be compared. Default: AND.
+      ),
+    ),
+
+//////Custom Field Parameters - Show posts associated with a certain custom field.
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Custom_Field_Parameters
+    &#39;meta_key&#39; =&gt; &#39;key&#39;,                    //(string) - Custom field key.
+    &#39;meta_value&#39; =&gt; &#39;value&#39;,                //(string) - Custom field value.
+    &#39;meta_value_num&#39; =&gt; 10,                 //(number) - Custom field value.
+    &#39;meta_compare&#39; =&gt; &#39;=&#39;,                  //(string) - Operator to test the &#39;meta_value&#39;. Possible values are &#39;!=&#39;, &#39;&gt;&#39;, &#39;&gt;=&#39;, &#39;&lt;&#39;, or =&#39;. Default value is &#39;=&#39;.
+    &#39;meta_query&#39; =&gt; array(                  //(array) - Custom field parameters (available with Version 3.1).
+       &#39;relation&#39; =&gt; &#39;AND&#39;,                 //(string) - Possible values are &#39;AND&#39;, &#39;OR&#39;. The logical relationship between each inner meta_query array when there is more than one. Do not use with a single inner meta_query array.
+       array(
+         &#39;key&#39; =&gt; &#39;color&#39;,                  //(string) - Custom field key.
+         &#39;value&#39; =&gt; &#39;blue&#39;                  //(string/array) - Custom field value (Note: Array support is limited to a compare value of &#39;IN&#39;, &#39;NOT IN&#39;, &#39;BETWEEN&#39;, or &#39;NOT BETWEEN&#39;) Using WP &lt; 3.9? Check out this page for details: http://codex.wordpress.org/Class_Reference/WP_Query#Custom_Field_Parameters
+         &#39;type&#39; =&gt; &#39;CHAR&#39;,                  //(string) - Custom field type. Possible values are &#39;NUMERIC&#39;, &#39;BINARY&#39;, &#39;CHAR&#39;, &#39;DATE&#39;, &#39;DATETIME&#39;, &#39;DECIMAL&#39;, &#39;SIGNED&#39;, &#39;TIME&#39;, &#39;UNSIGNED&#39;. Default value is &#39;CHAR&#39;. The &#39;type&#39; DATE works with the &#39;compare&#39; value BETWEEN only if the date is stored at the format YYYYMMDD and tested with this format.
+                                            //NOTE: The &#39;type&#39; DATE works with the &#39;compare&#39; value BETWEEN only if the date is stored at the format YYYYMMDD and tested with this format.
+         &#39;compare&#39; =&gt; &#39;=&#39;                   //(string) - Operator to test. Possible values are &#39;=&#39;, &#39;!=&#39;, &#39;&gt;&#39;, &#39;&gt;=&#39;, &#39;&lt;&#39;, &#39;&lt;=&#39;, &#39;LIKE&#39;, &#39;NOT LIKE&#39;, &#39;IN&#39;, &#39;NOT IN&#39;, &#39;BETWEEN&#39;, &#39;NOT BETWEEN&#39;, &#39;EXISTS&#39; (only in WP &gt;= 3.5), and &#39;NOT EXISTS&#39; (also only in WP &gt;= 3.5). Default value is &#39;=&#39;.
+       ),
+       array(
+         &#39;key&#39; =&gt; &#39;price&#39;,
+         &#39;value&#39; =&gt; array( 1,200 ),
+         &#39;compare&#39; =&gt; &#39;NOT LIKE&#39;
+       )
+    ),
+
+//////Permission Parameters - Display published posts, as well as private posts, if the user has the appropriate capability:
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Permission_Parameters
+    &#39;perm&#39; =&gt; &#39;readable&#39;                    //(string) Possible values are &#39;readable&#39;, &#39;editable&#39;
+
+//////Caching Parameters
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Caching_Parameters
+    //NOTE Caching is a good thing. Setting these to false is generally not advised.
+    &#39;cache_results&#39; =&gt; true,                //(bool) Default is true - Post information cache.
+    &#39;update_post_term_cache&#39; =&gt; true,       //(bool) Default is true - Post meta information cache.
+    &#39;update_post_meta_cache&#39; =&gt; true,       //(bool) Default is true - Post term information cache.
+
+    &#39;no_found_rows&#39; =&gt; false,               //(bool) Default is false. WordPress uses SQL_CALC_FOUND_ROWS in most queries in order to implement pagination. Even when you donтАЩt need pagination at all. By Setting this parameter to true you are telling wordPress not to count the total rows and reducing load on the DB. Pagination will NOT WORK when this parameter is set to true. For more information see: http://flavio.tordini.org/speed-up-wordpress-get_posts-and-query_posts-functions
+
+
+//////Search Parameter
+    //http://codex.wordpress.org/Class_Reference/WP_Query#Search_Parameter
+    &#39;s&#39; =&gt; $s,                              //(string) - Passes along the query string variable from a search. For example usage see: http://www.wprecipes.com/how-to-display-the-number-of-results-in-wordpress-search
+    &#39;exact&#39; =&gt; true,                        //(bool) - flag to make it only match whole titles/posts - Default value is false. For more information see: https://gist.github.com/2023628#gistcomment-285118
+    &#39;sentence&#39; =&gt; true,                     //(bool) - flag to make it do a phrase search - Default value is false. For more information see: https://gist.github.com/2023628#gistcomment-285118
+
+//////Post Field Parameters
+    //For more info see: http://codex.wordpress.org/Class_Reference/WP_Query#Return_Fields_Parameter
+    //also https://gist.github.com/luetkemj/2023628/#comment-1003542
+    &#39;fields&#39; =&gt; &#39;ids&#39;                       //(string) - Which fields to return. All fields are returned by default.
+                                              //Possible values:
+                                              //&#39;ids&#39;        - Return an array of post IDs.
+                                              //&#39;id=&gt;parent&#39; - Return an associative array [ parent =&gt; ID, тАж ].
+                                              //Passing anything else will return all fields (default) - an array of post objects.
+
+//////Filters
+    //For more information on available Filters see: http://codex.wordpress.org/Class_Reference/WP_Query#Filters
+
+);
+
+$the_query = new WP_Query( $args );
+
+// The Loop
+if ( $the_query-&gt;have_posts() ) {
+    while ( $the_query-&gt;have_posts() ) {
+      $the_query-&gt;the_post();
+      // Do Stuff
+    } // end while
+} // endif
+
+// Reset Post Data
+wp_reset_postdata();
+</code></pre></div><aside class="post__aside"><div class="post__last-updated u-small">Статья обновлена июнь 27, 2020</div><div class="post__share"></div></aside><footer class="post__footer"><div class="post__bio box"><img class="u-author__avatar" src="https://proweb.github.io/personal-blog/media/website/64a5f2.jpg-240x240-crop.jpg" loading="lazy" alt="Сергей Мочалов"><div><h4 class="h6"><a href="https://proweb.github.io/personal-blog/authors/sergey-mochalov/" title="Сергей Мочалов">Сергей Мочалов</a></h4><p>Веб-разработчик. Создаю и поддерживаю сайты для клиентов с 2009 года</p></div></div><nav class="post__nav box"><div class="post__nav__prev"><a href="https://proweb.github.io/personal-blog/wordpress-front-category-exclusion/" class="post__nav__link" rel="prev"><img src="https://proweb.github.io/personal-blog/media/posts/10/responsive/Category1-xs.jpg" loading="lazy" alt=""><div class="u-small">Предыдущая статья<h5>Как исключить некоторые категории с главной страницы WordPress</h5></div></a></div><div class="post__nav__next"><a href="https://proweb.github.io/personal-blog/gitignore-for-wordpress/" class="post__nav__link" rel="next"><div class="u-small">Следующая статья<h5>.gitignore для WordPress</h5></div><img src="https://proweb.github.io/personal-blog/media/posts/16/responsive/wordpress-gitignore-xs.jpg" loading="lazy" alt=""></a></div></nav></footer></article></main><div class="sidebar"><section class="box authors"><h3 class="box__title">Авторы</h3><ul class="authors__cotainer"><li class="authors__item"><a href="https://proweb.github.io/personal-blog/authors/sergey-mochalov/" class="authors__image-link"><img src="https://proweb.github.io/personal-blog/media/website/64a5f2.jpg-240x240-crop.jpg" alt="Сергей Мочалов"></a><div><a href="https://proweb.github.io/personal-blog/authors/sergey-mochalov/" class="authors__title">Сергей Мочалов</a> <span class="u-small">Записей: 13</span></div></li></ul></section><section class="box"><h3 class="box__title">Теги</h3><ul class="tags"><li><a href="https://proweb.github.io/personal-blog/tag/javascript/">javascript</a> <span class="u-small">(1)</span></li><li><a href="https://proweb.github.io/personal-blog/tag/ubuntu/">ubuntu</a> <span class="u-small">(3)</span></li><li><a href="https://proweb.github.io/personal-blog/tag/wordpress/">wordpress</a> <span class="u-small">(7)</span></li></ul></section></div><footer class="footer"><a class="footer__logo" href="https://proweb.github.io/personal-blog/">NewWebmaster.RU</a><nav><ul class="footer__nav"></ul></nav><div class="footer__copyright"><p>Все права защищены</p></div></footer></div><script>window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.navbar',
+   };</script><script defer="defer" src="https://proweb.github.io/personal-blog/assets/js/scripts.min.js?v=225cfb4a7e546edee710c4f1208e81e2"></script><script defer="defer" src="https://proweb.github.io/personal-blog/assets/js/prism.js?v=8ddb8e578acc20d9c916bccb139ce566"></script><script>var images = document.querySelectorAll('img[loading]');
+
+      for (var i = 0; i < images.length; i++) {
+         if (images[i].complete) {
+               images[i].classList.add('is-loaded');
+         } else {
+               images[i].addEventListener('load', function () {
+                  this.classList.add('is-loaded');
+               }, false);
+         }
+      }</script></body></html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://proweb.github.io/personal-blog/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://proweb.github.io/personal-blog/</loc>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/about/</loc>
+<lastmod>2020-06-28T00:25:46+03:00</lastmod>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/gitignore-for-wordpress/</loc>
+<lastmod>2020-06-28T17:34:20+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/16/wordpress-gitignore.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/kto-takie-vebmastera-i-dlya-chego-oni-nuzhny/</loc>
+<lastmod>2020-06-26T18:19:21+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/2/webmaster-plus.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/nginx-mysql-php-lemp-ubuntu/</loc>
+<lastmod>2020-06-28T17:25:58+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/15/nginx-install.jpeg</image:loc>
+<image:title><![CDATA[Как установить nginx, MySQL, PHP (LEMP) в Ubuntu]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/remove-gutenberg-in-wordpress/</loc>
+<lastmod>2020-06-28T17:22:28+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/14/guten-classic.png</image:loc>
+<image:title><![CDATA[Как избавиться от Gutenberg в WordPress?]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/replace-jquery-to-js-vanilla/</loc>
+<lastmod>2020-06-28T17:05:35+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/13/js-vs-jquery.jpg</image:loc>
+<image:title><![CDATA[Как заменить jQuery на чистый Javascript]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/service/</loc>
+<lastmod>2020-06-28T00:53:55+03:00</lastmod>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/slick-in-bootstrap-tabs-and-equal-height/</loc>
+<lastmod>2020-06-28T16:56:20+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/12/slick-1.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/sublime-text-install-ubuntu/</loc>
+<lastmod>2020-06-28T16:34:45+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/11/sublime-text-2.png</image:loc>
+<image:title><![CDATA[установка Sublime Text из репозитория Ubuntu]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/wordpress-front-category-exclusion/</loc>
+<lastmod>2020-06-28T16:21:19+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/10/Category1.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/wordpress-post-status-hightlight/</loc>
+<lastmod>2020-06-28T00:37:58+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/9/color-posts-wpadmin.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/wordpress-remove-emoji/</loc>
+<lastmod>2020-06-28T00:26:40+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/5/s1200.png</image:loc>
+<image:title><![CDATA[Удаляем код Emoji из WordPress]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/wp-5-2-themes-update-wp-body-open/</loc>
+<lastmod>2020-06-27T18:20:42+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/4/wp-body-open.jpg</image:loc>
+<image:title><![CDATA[wp_body_open WordPress]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/wp_query-args/</loc>
+<lastmod>2020-06-27T17:18:02+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/3/WP_Query.jpg</image:loc>
+<image:title><![CDATA[Функция WP_Query — список аргументов]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://proweb.github.io/personal-blog/xubuntu-cleaning/</loc>
+<lastmod>2020-06-27T17:56:19+03:00</lastmod>
+<image:image>
+<image:loc>https://proweb.github.io/personal-blog/media/posts/1/xubuntu.jpg</image:loc>
+<image:title><![CDATA[Чистим Xubuntu]]></image:title>
+</image:image>
+</url>
+</urlset>
