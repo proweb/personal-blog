@@ -81,6 +81,14 @@
 </image:image>
 </url>
 <url>
+<loc>https://newwebmaster.ru/letconstvar/</loc>
+<lastmod>2021-01-07T17:42:44+03:00</lastmod>
+<image:image>
+<image:loc>https://newwebmaster.ru/media/posts/41/var-let-const.jpg</image:loc>
+<image:title><![CDATA[Новое в ES6 переменные с let и const]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://newwebmaster.ru/nginx-mysql-php-lemp-ubuntu/</loc>
 <lastmod>2020-11-26T14:30:54+03:00</lastmod>
 <image:image>
