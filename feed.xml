@@ -128,7 +128,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/3/WP_Query.jpg" alt="Функция WP_Query — список аргументов" />
-                    Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php/*** WordPress Query Comprehensive Reference* Compiled by luetkemj - luetkemj.com** CODEX: http://codex.wordpress.org/Class_Reference/WP_Query#Parameters* Source: https://core.trac.wordpress.org/browser/tags/3.9/src/wp-includes/query.php*/$args =&hellip;
+                    Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php /** * WordPress Query Comprehensive Reference * Compiled by luetkemj - luetkemj.com * *&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -146,7 +146,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/10/Category1.jpg" alt="" />
-                    Часто возникает задача, когда некоторые категории блога не хотелось бы отображать в общем цикле WordPress, особенно на главной странице блога. Причин на то может быть много, это и продажа рекламы в постах данной категории, или нетематичность данной категории для блога.Благодаря небольшому дополнению файла functions.php вашей&hellip;
+                    Часто возникает задача, когда некоторые категории блога не хотелось бы отображать в общем цикле WordPress, особенно на главной странице блога. Причин на то может быть много, это и продажа рекламы в постах данной категории, или нетематичность данной категории для блога. Благодаря небольшому дополнению файла functions.php&hellip;
                 ]]>
             </summary>
         <content></content>
