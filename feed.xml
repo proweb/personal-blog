@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2021-01-07T17:42:44+03:00</updated>
+    <updated>2021-04-25T21:19:17+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://newwebmaster.ru/letconstvar/</id>
             <category term="javascript"/>
 
-        <updated>2021-01-07T17:42:44+03:00</updated>
+        <updated>2021-04-25T21:18:26+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/41/var-let-const.jpg" alt="Новое в ES6 переменные с let и const" />
@@ -54,7 +54,7 @@
         <id>https://newwebmaster.ru/read-json-file-using-php/</id>
             <category term="PHP"/>
 
-        <updated>2020-10-15T20:59:17+03:00</updated>
+        <updated>2021-04-25T21:19:17+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/26/json-php.jpg" alt="Как прочитать JSON средствами PHP" />
@@ -160,7 +160,7 @@
         <id>https://newwebmaster.ru/nginx-mysql-php-lemp-ubuntu/</id>
             <category term="ubuntu"/>
 
-        <updated>2020-11-26T14:30:54+03:00</updated>
+        <updated>2021-04-25T21:18:16+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/15/nginx-install.jpeg" alt="Как установить nginx, MySQL, PHP (LEMP) в Ubuntu" />
