@@ -3,12 +3,30 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2021-04-25T21:19:17+03:00</updated>
+    <updated>2021-04-25T23:48:29+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
     <id>https://newwebmaster.ru</id>
 
+    <entry>
+        <title>Как объединить массивы в JavaScript</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/merge-arrays-in-js/"/>
+        <id>https://newwebmaster.ru/merge-arrays-in-js/</id>
+            <category term="javascript"/>
+
+        <updated>2021-04-25T23:48:29+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/43/merge.jpg" alt="" />
+                     array1 = [ 1,2,3] array2 = [4,5,6] Массивы по своей сути это структура данных, представляющая&nbsp;упорядоченную коллекцию индексированных элементов. И довольно часто в практике возникает необходимость объединения массивов - когда два и более отдельных массивов превращаются в большой массив содержащий все элементы первоначальных массивов. Например&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Новое в ES6: let и const</title>
         <author>
@@ -165,23 +183,6 @@
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/15/nginx-install.jpeg" alt="Как установить nginx, MySQL, PHP (LEMP) в Ubuntu" />
                     В этом посте мы разберем процесс установки сервера на основе Nginx на Ubuntu Данное руководство наиболее полно отражает процесс настройки LEMP сервера на базе хостинга от DigitalOcean, счастливым клиентом которого я недавно стал и вам советую. LEMP — аббревиатура, обозначающая комплекс программ для развертывания полного&hellip;
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Карусель Slick внутри Bootstrap tabs и Equal height</title>
-        <author>
-            <name>Сергей Мочалов</name>
-        </author>
-        <link href="https://newwebmaster.ru/slick-in-bootstrap-tabs-and-equal-height/"/>
-        <id>https://newwebmaster.ru/slick-in-bootstrap-tabs-and-equal-height/</id>
-
-        <updated>2020-06-28T16:56:20+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://newwebmaster.ru/media/posts/12/slick-1.png" alt="" />
-                    На этой неделе шаманили над новым сайтом. Задачка не сильно сложная — лендинг для мероприятия. В процессе разработки возникла задача сделать карусельку из нескольких слайдов (для прокрутки мероприятий и списка спонсоров) В качестве достаточно неплохо выполненной карусельки на JQuery выбор пал на Slick (репозиторий на&hellip;
                 ]]>
             </summary>
         <content></content>
