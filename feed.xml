@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2021-04-25T23:48:29+03:00</updated>
+    <updated>2021-07-16T22:20:09+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://newwebmaster.ru/merge-arrays-in-js/</id>
             <category term="javascript"/>
 
-        <updated>2021-04-25T23:48:29+03:00</updated>
+        <updated>2021-07-16T22:16:15+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/43/merge.jpg" alt="" />
@@ -134,7 +134,7 @@
         <content></content>
     </entry>
     <entry>
-        <title>Функция WP_Query — список аргументов</title>
+        <title>Класс WP_Query — список аргументов</title>
         <author>
             <name>Сергей Мочалов</name>
         </author>
@@ -142,7 +142,7 @@
         <id>https://newwebmaster.ru/wp_query-args/</id>
             <category term="wordpress"/>
 
-        <updated>2020-06-27T17:18:02+03:00</updated>
+        <updated>2021-07-16T22:20:09+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/3/WP_Query.jpg" alt="Функция WP_Query — список аргументов" />
