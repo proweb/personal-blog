@@ -49,6 +49,10 @@
 </image:image>
 </url>
 <url>
+<loc>https://newwebmaster.ru/es6-literals-shablonnye-stroki/</loc>
+<lastmod>2022-12-20T16:49:54+03:00</lastmod>
+</url>
+<url>
 <loc>https://newwebmaster.ru/gistbox-for-your-snippets/</loc>
 <lastmod>2020-06-30T00:16:59+03:00</lastmod>
 <image:image>
@@ -122,7 +126,7 @@
 </url>
 <url>
 <loc>https://newwebmaster.ru/replace-jquery-to-js-vanilla/</loc>
-<lastmod>2021-04-12T17:09:07+03:00</lastmod>
+<lastmod>2022-04-28T13:55:22+03:00</lastmod>
 <image:image>
 <image:loc>https://newwebmaster.ru/media/posts/13/js-vs-jquery.jpg</image:loc>
 <image:title><![CDATA[Как заменить jQuery на чистый Javascript]]></image:title>
@@ -206,9 +210,9 @@
 </url>
 <url>
 <loc>https://newwebmaster.ru/xubuntu-cleaning/</loc>
-<lastmod>2020-06-27T17:56:19+03:00</lastmod>
+<lastmod>2022-04-25T17:09:22+03:00</lastmod>
 <image:image>
-<image:loc>https://newwebmaster.ru/media/posts/1/xubuntu.jpg</image:loc>
+<image:loc>https://newwebmaster.ru/media/posts/1/xubuntu-cleaning.png</image:loc>
 <image:title><![CDATA[Чистим Xubuntu]]></image:title>
 </image:image>
 </url>
