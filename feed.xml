@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2022-12-20T16:49:54+03:00</updated>
+    <updated>2022-12-21T15:04:10+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -16,11 +16,13 @@
         </author>
         <link href="https://newwebmaster.ru/es6-literals-shablonnye-stroki/"/>
         <id>https://newwebmaster.ru/es6-literals-shablonnye-stroki/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/44/og-banner.png" medium="image" />
             <category term="javascript"/>
 
-        <updated>2022-12-20T16:49:54+03:00</updated>
+        <updated>2022-12-21T15:04:10+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/44/og-banner.png" alt="template literals (шаблонные строки)" />
                     С приходом версии ES6 в JavaScript стало возможным использование шаблонных литералов. Они в значительной степени упрощают работу со строками и переменными в JavaScript. Если ранее мы писали так: var val1 = 5; var val2 = 10; console.log('Сумма чисел ' + val1 + ' и '&hellip;
                 ]]>
             </summary>
