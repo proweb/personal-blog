@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2022-12-21T15:04:10+03:00</updated>
+    <updated>2022-12-28T09:33:34+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -35,13 +35,13 @@
         </author>
         <link href="https://newwebmaster.ru/merge-arrays-in-js/"/>
         <id>https://newwebmaster.ru/merge-arrays-in-js/</id>
-        <media:content url="https://newwebmaster.ru/media/posts/43/merge.jpg" medium="image" />
+        <media:content url="https://newwebmaster.ru/media/posts/43/array-merge.png" medium="image" />
             <category term="javascript"/>
 
-        <updated>2021-07-16T22:16:15+03:00</updated>
+        <updated>2022-12-28T09:33:34+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://newwebmaster.ru/media/posts/43/merge.jpg" alt="" />
+                        <img src="https://newwebmaster.ru/media/posts/43/array-merge.png" alt="" />
                     array1 = [ 1,2,3] array2 = [4,5,6] Массивы по своей сути это структура данных, представляющая&nbsp;упорядоченную коллекцию индексированных элементов. И довольно часто в практике возникает необходимость объединения массивов - когда два и более отдельных массивов превращаются в большой массив содержащий все элементы первоначальных массивов. Например объединение&hellip;
                 ]]>
             </summary>
