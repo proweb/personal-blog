@@ -33,6 +33,10 @@
 </image:image>
 </url>
 <url>
+<loc>https://newwebmaster.ru/columns-wp-admin/</loc>
+<lastmod>2023-04-23T16:57:34+03:00</lastmod>
+</url>
+<url>
 <loc>https://newwebmaster.ru/deb-package-managment/</loc>
 <lastmod>2020-06-30T00:23:00+03:00</lastmod>
 <image:image>
@@ -50,7 +54,7 @@
 </url>
 <url>
 <loc>https://newwebmaster.ru/es6-literals-shablonnye-stroki/</loc>
-<lastmod>2022-12-21T15:04:10+03:00</lastmod>
+<lastmod>2023-01-04T12:42:52+03:00</lastmod>
 <image:image>
 <image:loc>https://newwebmaster.ru/media/posts/44/og-banner.png</image:loc>
 <image:title><![CDATA[template literals (шаблонные строки)]]></image:title>

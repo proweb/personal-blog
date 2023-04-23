@@ -3,12 +3,29 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2022-12-28T09:33:34+03:00</updated>
+    <updated>2023-04-23T16:57:34+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
     <id>https://newwebmaster.ru</id>
 
+    <entry>
+        <title>Колонки в админке WordPress для таблиц записей</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/columns-wp-admin/"/>
+        <id>https://newwebmaster.ru/columns-wp-admin/</id>
+            <category term="wordpress"/>
+
+        <updated>2023-04-23T16:57:34+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Типы записей в WordPress WordPress по умолчанию имеет свой тип записей идущих при установке. Основных с которыми работает пользователь два - post и page, которые в административном меню обзываются как "страницы" и "записи" Дизайн админки достаточно унифицирован - он представляет собой таблицу с перечнем определенного&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Новое в ES6: template literals (шаблонные строки)</title>
         <author>
@@ -19,7 +36,7 @@
         <media:content url="https://newwebmaster.ru/media/posts/44/og-banner.png" medium="image" />
             <category term="javascript"/>
 
-        <updated>2022-12-21T15:04:10+03:00</updated>
+        <updated>2023-01-04T12:42:52+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/44/og-banner.png" alt="template literals (шаблонные строки)" />
@@ -174,25 +191,6 @@
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/3/WP_Query.jpg" alt="Функция WP_Query — список аргументов" />
                     Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php /** * WordPress Query Comprehensive Reference * Compiled by luetkemj - luetkemj.com * *&hellip;
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Как исключить некоторые категории с главной страницы WordPress</title>
-        <author>
-            <name>Сергей Мочалов</name>
-        </author>
-        <link href="https://newwebmaster.ru/wordpress-front-category-exclusion/"/>
-        <id>https://newwebmaster.ru/wordpress-front-category-exclusion/</id>
-        <media:content url="https://newwebmaster.ru/media/posts/10/Category1.jpg" medium="image" />
-            <category term="wordpress"/>
-
-        <updated>2020-06-28T16:21:19+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://newwebmaster.ru/media/posts/10/Category1.jpg" alt="" />
-                    Часто возникает задача, когда некоторые категории блога не хотелось бы отображать в общем цикле WordPress, особенно на главной странице блога. Причин на то может быть много, это и продажа рекламы в постах данной категории, или нетематичность данной категории для блога. Благодаря небольшому дополнению файла functions.php&hellip;
                 ]]>
             </summary>
         <content></content>
