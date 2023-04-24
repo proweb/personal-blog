@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2023-04-23T16:57:34+03:00</updated>
+    <updated>2023-04-24T14:51:28+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -16,11 +16,13 @@
         </author>
         <link href="https://newwebmaster.ru/columns-wp-admin/"/>
         <id>https://newwebmaster.ru/columns-wp-admin/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/50/post-image.png" medium="image" />
             <category term="wordpress"/>
 
-        <updated>2023-04-23T16:57:34+03:00</updated>
+        <updated>2023-04-24T14:51:28+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/50/post-image.png" alt="" />
                     Типы записей в WordPress WordPress по умолчанию имеет свой тип записей идущих при установке. Основных с которыми работает пользователь два - post и page, которые в административном меню обзываются как "страницы" и "записи" Дизайн админки достаточно унифицирован - он представляет собой таблицу с перечнем определенного&hellip;
                 ]]>
             </summary>

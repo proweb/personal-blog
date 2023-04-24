@@ -34,7 +34,11 @@
 </url>
 <url>
 <loc>https://newwebmaster.ru/columns-wp-admin/</loc>
-<lastmod>2023-04-23T16:57:34+03:00</lastmod>
+<lastmod>2023-04-24T14:51:28+03:00</lastmod>
+<image:image>
+<image:loc>https://newwebmaster.ru/media/posts/50/post-image.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://newwebmaster.ru/deb-package-managment/</loc>
