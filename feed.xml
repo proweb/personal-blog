@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2023-04-24T14:51:28+03:00</updated>
+    <updated>2023-08-29T22:27:21+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -24,6 +24,23 @@
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/50/post-image.png" alt="" />
                     Типы записей в WordPress WordPress по умолчанию имеет свой тип записей идущих при установке. Основных с которыми работает пользователь два - post и page, которые в административном меню обзываются как "страницы" и "записи" Дизайн админки достаточно унифицирован - он представляет собой таблицу с перечнем определенного&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Javascript декодирование кодировки win-1251 после fetch</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/javascript-decode-1251/"/>
+        <id>https://newwebmaster.ru/javascript-decode-1251/</id>
+            <category term="javascript"/>
+
+        <updated>2023-08-29T22:27:21+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Предположим наше приложение на одном домене обращается через Fetch API к другому домену и запрашивает данные с него в виде строки текста. let request = fetch(url) .then(response =&gt; response.text()) .then(handleText); Сервер, который отдает данные имеет кодировку win-1251, в следствие чего мы получаем в ответ "кракозябры"&hellip;
                 ]]>
             </summary>
         <content></content>
@@ -174,25 +191,6 @@
                 <![CDATA[
                         <img src="https://newwebmaster.ru/media/posts/16/wordpress-gitignore.jpg" alt="" />
                     При разработке веб-приложений работу без использования Git уже не возможно представить. Сложно выдумать что то более рациональное для контроля версий. А история коммитов позволяет проследить весь процесс разработки конкретного проекта во времени. При разработке шаблонов для WordPress также часто используется git, т.к. процесс разработки достаточно&hellip;
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Класс WP_Query — список аргументов</title>
-        <author>
-            <name>Сергей Мочалов</name>
-        </author>
-        <link href="https://newwebmaster.ru/wp_query-args/"/>
-        <id>https://newwebmaster.ru/wp_query-args/</id>
-        <media:content url="https://newwebmaster.ru/media/posts/3/WP_Query.jpg" medium="image" />
-            <category term="wordpress"/>
-
-        <updated>2021-07-16T22:20:09+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://newwebmaster.ru/media/posts/3/WP_Query.jpg" alt="Функция WP_Query — список аргументов" />
-                    Функция WP_Query один из наиболее часто используемых классов в работе WordPress-разработчика. Данный пост является заметкой-сниппетом, в нем перечислены все аргументы которые могут передаваться в качестве параметра для выборки постов WordPress. &lt;?php /** * WordPress Query Comprehensive Reference * Compiled by luetkemj - luetkemj.com * *&hellip;
                 ]]>
             </summary>
         <content></content>
