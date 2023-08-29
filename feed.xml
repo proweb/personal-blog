@@ -3,7 +3,7 @@
     <title>NewWebmaster.RU</title>
     <link href="https://newwebmaster.ru/feed.xml" rel="self" />
     <link href="https://newwebmaster.ru" />
-    <updated>2023-08-29T22:30:13+03:00</updated>
+    <updated>2023-08-29T23:45:08+03:00</updated>
     <author>
         <name>Сергей Мочалов</name>
     </author>
@@ -35,11 +35,13 @@
         </author>
         <link href="https://newwebmaster.ru/javascript-decode-1251/"/>
         <id>https://newwebmaster.ru/javascript-decode-1251/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/48/og-banner.png" medium="image" />
             <category term="javascript"/>
 
-        <updated>2023-08-29T22:30:13+03:00</updated>
+        <updated>2023-08-29T23:45:08+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/48/og-banner.png" alt="" />
                     Предположим наше приложение на одном домене обращается через Fetch API к другому домену и запрашивает данные с него в виде строки текста. let request = fetch(url) .then(response =&gt; response.text()) .then(handleText); Сервер, который отдает данные имеет кодировку win-1251, в следствие чего мы получаем в ответ "кракозябры"&hellip;
                 ]]>
             </summary>
