@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>NewWebmaster.RU</title>
+    <link href="https://newwebmaster.ru/feed.xml" rel="self" />
+    <link href="https://newwebmaster.ru" />
+    <updated>2023-08-29T23:45:08+03:00</updated>
+    <author>
+        <name>Сергей Мочалов</name>
+    </author>
+    <id>https://newwebmaster.ru</id>
+
+    <entry>
+        <title>Колонки в админке WordPress для таблиц записей</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/columns-wp-admin/"/>
+        <id>https://newwebmaster.ru/columns-wp-admin/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/50/post-image.png" medium="image" />
+            <category term="wordpress"/>
+
+        <updated>2023-04-24T14:51:28+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/50/post-image.png" alt="" />
+                    Типы записей в WordPress WordPress по умолчанию имеет свой тип записей идущих при установке. Основных с которыми работает пользователь два&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Javascript декодирование кодировки win-1251 после fetch</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/javascript-decode-1251/"/>
+        <id>https://newwebmaster.ru/javascript-decode-1251/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/48/og-banner.png" medium="image" />
+            <category term="javascript"/>
+
+        <updated>2023-08-29T23:45:08+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/48/og-banner.png" alt="" />
+                    Предположим наше приложение на одном домене обращается через Fetch API к другому домену и запрашивает данные с него в виде&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Новое в ES6: template literals (шаблонные строки)</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/es6-literals-shablonnye-stroki/"/>
+        <id>https://newwebmaster.ru/es6-literals-shablonnye-stroki/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/44/og-banner.png" medium="image" />
+            <category term="javascript"/>
+
+        <updated>2023-01-04T12:42:52+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/44/og-banner.png" alt="template literals (шаблонные строки)" />
+                    С приходом версии ES6 в JavaScript стало возможным использование шаблонных литералов. Они в значительной степени упрощают работу со строками и&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как объединить массивы в JavaScript</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/merge-arrays-in-js/"/>
+        <id>https://newwebmaster.ru/merge-arrays-in-js/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/43/array-merge.png" medium="image" />
+            <category term="javascript"/>
+
+        <updated>2022-12-28T09:33:34+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/43/array-merge.png" alt="" />
+                    array1 = [ 1,2,3] array2 = [4,5,6] Массивы по своей сути это структура данных, представляющая&nbsp;упорядоченную коллекцию индексированных элементов. И довольно&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Новое в ES6: let и const</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/letconstvar/"/>
+        <id>https://newwebmaster.ru/letconstvar/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/41/var-let-const.jpg" medium="image" />
+            <category term="javascript"/>
+
+        <updated>2021-04-25T21:18:26+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/41/var-let-const.jpg" alt="Новое в ES6 переменные с let и const" />
+                    До выхода ES6 в 2015 основным способом объявить переменную в JavaScript был var. С принятием стандарта ES6 у нас теперь&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>WordPress меняем отправителя почты</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/wordpress-email-sender/"/>
+        <id>https://newwebmaster.ru/wordpress-email-sender/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/40/wordpress_wp_mail.jpg" medium="image" />
+            <category term="wordpress"/>
+
+        <updated>2020-12-26T09:45:22+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/40/wordpress_wp_mail.jpg" alt="WordPress меняем отправителя почты" />
+                    WordPress в своей работе достаточно активно использует Email, как основного канала для уведомлений и сообщений администратору сайта. И часто почтовые&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Как прочитать JSON средствами PHP?</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/read-json-file-using-php/"/>
+        <id>https://newwebmaster.ru/read-json-file-using-php/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/26/json-php.jpg" medium="image" />
+            <category term="PHP"/>
+
+        <updated>2021-04-25T21:19:17+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/26/json-php.jpg" alt="Как прочитать JSON средствами PHP" />
+                    Возможно вы знаете что данные в формате JSON (JavaScript Object Notation) могут храниться в виде файлов. Обычно они выглядят как&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Github запустил сайт по продуктам - docs.github.com.</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/github-docs-site/"/>
+        <id>https://newwebmaster.ru/github-docs-site/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/25/docs_github.jpg" medium="image" />
+
+        <updated>2020-10-15T21:11:08+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/25/docs_github.jpg" alt="Новый сайт docs.github.com" />
+                    1 июля 2020 года Github запустил новый сайт с документацией по его продуктам. Адрес сайта -&nbsp;https://docs.github.com/ Этот новый сайт вобрал&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Кто такие вебмастера и для чего они нужны?</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/who-webmaster-what-doing/"/>
+        <id>https://newwebmaster.ru/who-webmaster-what-doing/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/2/webmaster-plus.jpg" medium="image" />
+
+        <updated>2020-07-03T23:56:09+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/2/webmaster-plus.jpg" alt="" />
+                    Кто такой вебмастер? Его можно определять по разному, но в первую очередь это человек, работающий с сайтами — интернет представительствами&hellip;
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>.gitignore для WordPress</title>
+        <author>
+            <name>Сергей Мочалов</name>
+        </author>
+        <link href="https://newwebmaster.ru/gitignore-for-wordpress/"/>
+        <id>https://newwebmaster.ru/gitignore-for-wordpress/</id>
+        <media:content url="https://newwebmaster.ru/media/posts/16/wordpress-gitignore.jpg" medium="image" />
+            <category term="wordpress"/>
+
+        <updated>2020-06-28T17:34:20+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://newwebmaster.ru/media/posts/16/wordpress-gitignore.jpg" alt="" />
+                    При разработке веб-приложений работу без использования Git уже не возможно представить. Сложно выдумать что то более рациональное для контроля версий.
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+</feed>
